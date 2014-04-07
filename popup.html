@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+      body {
+      min-width: 357px;
+      overflow-x: hidden;
+      }
+    </style>
+
+   <title>Tareas Comet</title>
+  </head>
+  <body>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+	<h1 class="panel-title text-center">Tareas Comet <span class="label label-warning">LabComet</span></h1>
+	<hr>
+	<p> Aplicación diseñada para ingresar de forma más rapida tus tareas diarias. Disfrútala!</p>
+      </div>
+      <div class="panel-body">
+	<div id="mensajeAjax"></div>
+	<label for="selectUsuario">Tu nombre</label>
+	<select class="form-control" id="selectUsuario">
+	  <option value="1">César</option>
+	  <option value="2">Pablo</option>
+	  <option value="3">Daniel</option>
+	</select>
+
+	<label for="inputTarea">¿Qué hiciste?</label>
+	<textarea class="form-control" rows="4" id="inputTarea"></textarea>
+
+	<label for="inputTiempo">¿Cuánto tiempo demoraste?</label>
+	<div class="input-group">
+	  <input type="number" class="form-control" id="inputTiempo">
+	  <span class="input-group-addon">Minutos</span>
+	</div>
+
+	<label for="selectProyecto">El proyecto</label>
+	<select class="form-control" id="selectProyecto">
+	  <option value="1">Prueba 1</option>
+	  <option value="2">Prueba 2</option>
+	  <option value="3">Prueba 3</option>
+	</select>
+
+      </div>
+
+      <div class="panel-footer" style="text-align: right;">
+	<button type="button" class="btn btn-danger" id="botonLimpiar">Limpiar</button>
+	<button type="button" class="btn btn-success" id="botonGuardar">Guardar</button>
+      </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+
+  </body>
+</html>
