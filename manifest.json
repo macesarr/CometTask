@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "Comet-task",
-    "description": "Extensión para guardar tareas de forma mas dinámica",
+    "name": "CometTask",
+    "description": "Google Chrome extension to write the tasks done. A little project, developed for help our methodology SCRUM at Open-Comet",
     "version": "1.0",
     "permissions" : ["https://*/*", "http://*/*"],
     "browser_action": {
-	"name": "Comet-task",
-	"icons": "icon.png",
+	"name": "CometTask",
+	"icons": "icon-16.png",
 	"default_icon": "icon-16.png",
 	"default_popup": "popup.html"
     },
